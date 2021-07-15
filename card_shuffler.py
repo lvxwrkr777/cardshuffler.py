@@ -17,7 +17,7 @@ while True:
         if keyboard.is_pressed('ENTER'):
             shuffle_deck(deck)
             print_deck(deck)
-            print ("Press enter to shuffle again, ctrl+c to exit")
+            print ("Press ENTER key to shuffle deck again, ctrl+c to exit")
             keyboard.wait('ENTER')
     except:
         break
